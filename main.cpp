@@ -17,9 +17,6 @@
 #include <cmath>
 #include <cstdlib>
 #include <numeric>
-// #include <ext/pb_ds/assoc_container.hpp>
-// #include <ext/pb_ds/tree_policy.hpp>
-
 #define append push_back
 #define ll long long int
 #define all(v) v.begin(), v.end()
@@ -28,15 +25,11 @@
 
 using namespace std;
 
-// using namespace __gnu_pbds;
-
-// template <class T> using ordered_set = tree<T, null_type,
-// less<T>, rb_tree_tag, tree_order_statistics_node_update>;
-
 signed main(){
     phuck();
     int t; cin >> t;
     while(t--){
+        // Time complexity: O(nlog(n))
         int n; cin >> n;
         vector<int> v(n);
         for(auto &val:v) cin >> val;
